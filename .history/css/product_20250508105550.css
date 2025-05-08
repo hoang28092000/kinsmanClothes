@@ -1,0 +1,240 @@
+.main-product {
+  margin-top: 80px;
+}
+.banner-product {
+  width: 100%;
+  height: 250px;
+}
+.banner-product img {
+  width: 100%;
+  height: 100%;
+}
+.category-product {
+  margin-bottom: 70px;
+}
+
+.list-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.product-link {
+  text-decoration: none;
+}
+.product-card {
+  width: 288px;
+}
+.img-product {
+  width: 100%;
+  height: 290px;
+  overflow: hidden;
+}
+.img-product img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.img-product img:hover {
+  transform: scale(1.1);
+}
+.info-card {
+  padding: 10px 20px;
+}
+.info-card h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+.price {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8px;
+}
+.more-product {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border: 1px solid #333;
+  transition: all 0.7s ease;
+  border-radius: 5px;
+}
+.more-product:hover {
+  background-color: #fff;
+  color: #333;
+}
+.banner-main_second{
+    width: 100%;
+    height: 250px;
+
+}
+
+.banner-main_second img{
+    width: 100%;
+    height: 100%;
+}
+
+/* main_about-us */
+.main-news,
+.main-contact,
+.main-policy,
+.main_about-us{
+    margin-top: 120px;
+}
+.content-policy .passage,
+.content_about-us .passage{
+    margin-bottom: 32px;
+}
+.content-policy h3,
+.content_about-us h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.76;
+    margin-bottom: 12px;
+}
+.content-policy p,
+.content_about-us  p{
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.85;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.map{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+}
+.map a{
+    text-decoration: none;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(73, 71, 71, 0.4);
+
+}
+.overlay-map h3{
+    font-size: 2.8rem;
+    color: #fff;
+}
+
+.map:hover .overlay-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* policy */
+.content-policy ul{
+    padding-left: 30px;
+    list-style-type: disc;
+}
+.content-policy li{
+    font-size: 1.6rem;
+    color: #333;
+    margin-bottom: 16px;
+}
+/* contact */
+.banner-contact{
+    width: 100%;
+    height: 250px;
+}
+.banner-contact img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.content-contact{
+    margin-top: 70px;
+}
+.info-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.info-contact .left,
+.info-contact .right{
+    width: 550px;
+    
+}
+.info-contact .left{
+    padding: 20px 0;
+}
+.item-contact{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.item-contact:last-child{
+    margin-bottom: 0;
+}
+.item-contact i{
+    font-size: 1.6rem;
+    color: #333;
+}
+.item-contact p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    color: #333;
+}
+
+.info-contact .right img{
+    width: 100%;
+}
+.map-contact{
+    height: 250px;
+}
+.title-contact{
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+/* news */
+.banner-news{
+  width: 100%;
+  height: 250px;
+  margin-bottom: 60px;
+}
+.banner-news img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content-news{
+  display: flex;
+  justify-content: space-between;
+}
+.content-news .left{
+  width: 280px;
+}
+
+.content-news .left h4{
+  font-size: 2rem;
+  color: #333;
+  font-weight: 700;
+  bgc
+}

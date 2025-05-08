@@ -1,0 +1,175 @@
+:root {
+    --primary-color: #ff6347;
+    --secondary-color: #4caf50;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.arrow-continue{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    z-index: 2;
+    font-size: 2.4rem;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 14px;
+    border-radius: 50%;
+}
+.arrow-continue:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+header .logo img{
+    width: 200px;
+    height: 80px;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 10px;
+    transition: all .3s ease-in-out;
+}
+.nav a:hover{
+    color: var(--primary-color);
+}
+.search-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-box input[type="text"]{
+    padding: 6px;
+    border: 1px solid var(--text-color);
+    border-radius: 5px;
+    font-size: 1.4rem;
+    width: 200px;
+    outline: none;
+}
+.search-box input[type="text"]:focus{
+    border-color: var(--primary-color);
+}
+.search-box button[type="submit"]{
+    background-color: #333;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    transition: all .3s ease-in-out;
+}
+.search-box button[type="submit"]:hover{
+    background-color: var(--primary-color);
+}
+
+
+/* main */
+.content-main{
+    margin-top: 80px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 630px;
+    overflow: hidden;
+}
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.slide.active{
+    opacity: 1;
+    z-index: 1;
+}
+
+.category-list{
+    display: grid;
+
+}
+.overlay{
+    background-color: #928d8d;
+    display: none;
+}
+.overlay h3{
+    color: #fff;
+    font-size: 2.4rem;
+}
+
+.category-list{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 2 cột */
+    grid-template-rows: repeat(2, 282px);  /* 4 hàng */
+    gap: 10px;
+}
+.card-wrapper{
+    position: relative;
+    width: 100%;
+    grid-column: span 2; /* chiếm 2 cột */
+    grid-row: span 2;
+}
+
+.category-list img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+}
+
+.category-list .img-wrapper-2 .img-wrapper-3:hover .overlay{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

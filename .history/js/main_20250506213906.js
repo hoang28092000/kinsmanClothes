@@ -1,0 +1,1 @@
+const sliders = document.querySelectorAll('.slider');

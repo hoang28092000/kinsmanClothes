@@ -1,0 +1,20 @@
+.main-category{
+    margin-top: 120px;
+}
+
+.category-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-content .left{
+    width: 220px;
+}
+.category-content .left h3{
+    fz1.
+}
+
+.category-heading{
+    font-size: 2rem;
+}

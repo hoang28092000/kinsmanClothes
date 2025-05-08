@@ -1,0 +1,29 @@
+.main-category{
+    margin-top: 120px;
+}
+
+.category-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category-content .left{
+    width: 220px;
+}
+.category-content .left h3{
+    font-size: 1.6rem;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.category-content .left a{
+    text-decoration: none;
+    color:#333;
+    font-size: 1.6rem;
+}
+
+.category-heading{
+    font-size: 2rem;
+}

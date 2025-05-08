@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #ff6347;
+    --secondary-color: #4caf50;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 62.5%;
+}
+
+.container{
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+.content-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo img{
+    width: 200px;
+    height: 80px;
+}
+.nav{
+    display: flex;
+    
+    gap: 20px;
+}

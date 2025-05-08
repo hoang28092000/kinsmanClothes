@@ -1,0 +1,14 @@
+.main-category{
+    margin-top: 120px;
+}
+
+.category-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.category-heading{
+    font-size: 2rem;
+}

@@ -1,0 +1,141 @@
+.main-product {
+  margin-top: 80px;
+}
+.banner-product {
+  width: 100%;
+  height: 250px;
+}
+.banner-product img {
+  width: 100%;
+  height: 100%;
+}
+.category-product {
+  margin-bottom: 70px;
+}
+
+.list-product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.product-link {
+  text-decoration: none;
+}
+.product-card {
+  width: 288px;
+}
+.img-product {
+  width: 100%;
+  height: 290px;
+  overflow: hidden;
+}
+.img-product img {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.img-product img:hover {
+  transform: scale(1.1);
+}
+.info-card {
+  padding: 10px 20px;
+}
+.info-card h3 {
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--text-color);
+}
+.price {
+  font-size: 1.4rem;
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+  margin-top: 8px;
+}
+.more-product {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto 0;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border: 1px solid #333;
+  transition: all 0.7s ease;
+  border-radius: 5px;
+}
+.more-product:hover {
+  background-color: #fff;
+  color: #333;
+}
+.banner-main_second{
+    width: 100%;
+    height: 250px;
+
+}
+
+.banner-main_second img{
+    width: 100%;
+    height: 100%;
+}
+
+/* main_about-us */
+.main_about-us{
+    margin-top: 120px;
+}
+.content_about-us .passage{
+    margin-bottom: 32px;
+}
+.content_about-us h3{
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: var(--text-color);
+    line-height: 1.76;
+    margin-bottom: 12px;
+}
+.content_about-us  p{
+    font-size: 1.6rem;
+    color: #494747;
+    line-height: 1.85;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.map{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    tra
+}
+.map a{
+    text-decoration: none;
+}
+.map img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.overlay-map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background-color: rgba(73, 71, 71, 0.4);
+
+}
+.overlay-map h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.map:hover .overlay-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
