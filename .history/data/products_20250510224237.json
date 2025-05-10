@@ -1,0 +1,178 @@
+[
+  {
+    "id": "j-1",
+    "name": "Áo Khoác Denim Bụi Bặm Wash",
+    "price": "590.000đ",
+    "image": "../asset/image/j-1.webp",
+    "description": "Áo khoác denim bụi bặm, wash độc đáo, túi hộp tiện lợi. Chất liệu dày dặn, dễ phối đồ."
+  },
+  {
+    "id": "j-2",
+    "name": "Áo Crop Top Sơ Mi Denim Cá Tính",
+    "price": "590.000đ",
+    "image": "../asset/image/j-2.webp",
+    "description": "Áo crop top sơ mi denim cá tính.  Dễ phối quần jeans."
+  },
+  {
+    "id": "j-3",
+    "name": "Áo Khoác Denim Basic Cổ Điển",
+    "price": "590.000đ",
+    "image": "../asset/image/j-3.webp",
+    "description": "Áo khoác denim basic, form thoải mái, màu cổ điển. Item không thể thiếu cho phong cách casual."
+  },
+  {
+    "id": "j-4",
+    "name": "Sơ Mi Jeans Oversized",
+    "price": "590.000đ",
+    "image": "../asset/image/j-4.webp",
+    "description": "Sơ mi jeans dáng dài rộng, phong cách hiện đại, có thể mặc như áo khoác."
+  },
+  {
+    "id": "j-5",
+    "name": "Sơ Mi Jeans Họa Tiết Retro",
+    "price": "590.000đ",
+    "image": "../asset/image/j-5.webp",
+    "description": "Áo khoác denim monogram tinh tế, thanh lịch. Dáng ngắn, tôn dáng, dễ phối đồ."
+  },
+  {
+    "id": "j-6",
+    "name": "Sơ Mi Jeans Họa Tiết Sao",
+    "price": "590.000đ",
+    "image": "../asset/image/j-6.webp",
+    "description": " Sơ mi jeans dáng dài, họa tiết sao cá tính, tạo điểm nhấn."
+  },
+  {
+    "id": "j-7",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/j-1.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-1",
+    "name": "Quần Jeans Ống Rộng Xanh Vừa",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-1.webp",
+    "description": "Quần jeans ống rộng, màu xanh vừa, phong cách thoải mái và cá tính."
+  },
+  {
+    "id": "qj-2",
+    "name": "Quần Jeans Ống Côn Xanh Nhạt",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-2.webp",
+    "description": "Quần jeans ống côn, màu xanh nhạt trẻ trung, dáng ôm vừa phải."
+  },
+  {
+    "id": "qj-3",
+    "name": " Quần Jeans Ống Suông Xanh Nhạt ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-3.webp",
+    "description": " Quần jeans ống suông, màu xanh nhạt cổ điển, dễ phối đồ hàng ngày."
+  },
+  {
+    "id": "qj-4",
+    "name": "Quần Jeans Cargo Họa Tiết Chữ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-4.webp",
+    "description": "Quần jeans cargo dáng suông, túi hộp tiện lợi, họa tiết chữ độc đáo."
+  },
+  {
+    "id": "qj-5",
+    "name": " Quần Jeans Đen Wash Bạc ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-5.webp",
+    "description": "Quần jeans đen dáng ôm, hiệu ứng wash bạc cá tính, phong cách bụi bặm."
+  },
+  {
+    "id": "qj-6",
+    "name": "Quần Jogger Nỉ Xám Thể Thao",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-6.webp",
+    "description": "Quần jogger chất liệu nỉ xám, dáng ôm, phong cách thể thao năng động."
+  },
+  {
+    "id": "qj-7",
+    "name": "Quần Jeans Ống Rộng Họa Tiết Sao",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-7.webp",
+    "description": "Quần jeans ống rộng, họa tiết ngôi sao nổi bật, phong cách trẻ trung."
+  },
+  {
+    "id": "qj-8",
+    "name": " Quần Jeans Đen Thêu Họa Tiết ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-8.webp",
+    "description": "Quần jeans đen dáng rộng, chi tiết thêu họa tiết độc đáo ở ống quần."
+  },
+  {
+    "id": "qj-9",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-9.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-10",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-10.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-11",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-11.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-12",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-12.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-13",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-13.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-14",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-14.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-15",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-15.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-16",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-16.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-17",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-17.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  },
+  {
+    "id": "qj-18",
+    "name": "Áo Khoác Jeans Monogram ",
+    "price": "590.000đ",
+    "image": "../asset/image/qj-18.webp",
+    "description": "Áo khoác jeans dáng ngắn, họa tiết monogram tinh tế, thanh lịch."
+  }
+
+]

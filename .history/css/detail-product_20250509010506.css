@@ -1,0 +1,9 @@
+.detail-product{
+    margin-top: 120px;
+}
+.detail-product .content-body{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+}
