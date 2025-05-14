@@ -1,0 +1,6 @@
+@media screen (min-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+}

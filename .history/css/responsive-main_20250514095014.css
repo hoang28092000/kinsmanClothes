@@ -1,0 +1,8 @@
+/* pc */
+@media (min-width: 1169.98px) {
+    .nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+}

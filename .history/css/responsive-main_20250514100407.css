@@ -1,0 +1,19 @@
+/* pc */
+@media (max-width: 1048px) {
+  #menu-nav{
+    display: block;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 30%;
+    height: 100vh;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: #e4dada;
+    z-index: 999;
+  }
+  .button-nav{
+    display: block;
+  }
+  .close-menu
+}

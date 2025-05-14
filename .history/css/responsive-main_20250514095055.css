@@ -1,0 +1,6 @@
+/* pc */
+@media (min-width: 10.98px) {
+  .nav ul {
+    display: none;
+  }
+}

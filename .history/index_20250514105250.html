@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/responsive-main.css" />
+
+    <title>KinsManClothes</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="content-header">
+          <div class="logo">
+            <a href="./index.html">
+              <img
+                src="./asset/logo/logo-kinsmann.svg"
+                alt="KinsManClothes Logo"
+              />
+            </a>
+          </div>
+          <nav class="nav" id="menu-nav">
+            
+            <ul>
+              <li><a href="./pages/product.html">Sản Phẩm</a></li>
+              <li><a href="./pages/about-us.html">Giới thiệu</a></li>
+              <li><a href="./pages/policy.html">Chính Sách</a></li>
+              <li><a href="./pages/news.html">Tin tức</a></li>
+              <li><a href="./pages/contact.html">Liên hệ</a></li>
+            </ul>
+          </nav>
+          <form class="search-box">
+            <input
+              type="text"
+              id="search-input"
+              placeholder="Tìm kiếm sản phẩm..."
+            />
+            <button type="submit" id="search-button">Tìm kiếm</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="content-main">
+        <div class="slider" id="slider">
+          <img
+            src="./asset/banner/banner-2.png"
+            alt="banner"
+            class="slide active"
+          />
+          <img src="./asset/banner/banner-3.png" alt="banner" class="slide" />
+          <img src="./asset/banner/banner-1.png" alt="banner" class="slide" />
+          <a href="#category-list"
+            ><i class="fa-solid fa-arrow-down arrow-continue"></i
+          ></a>
+        </div>
+      </div>
+      <div class="container">
+        <section class="category-list" id="category-list">
+          <div class="card-wrapper">
+            <img
+              src="./asset/image/model-6.jpg"
+              alt=""
+              class="img-category-1"
+            />
+            <div class="overlay">
+              <h3>Jeans</h3>
+              <a href="./category/jeans.html">Xem thêm</a>
+            </div>
+          </div>
+          <div class="card-wrapper-2">
+            <img src="./asset/image/model-2.webp" alt="" />
+            <div class="overlay">
+              <h3>Sơ mi</h3>
+              <a href="./category/somi.html">Xem thêm</a>
+            </div>
+          </div>
+          <div class="card-wrapper-2">
+            <img src="./asset/image/mode-10.jpg" alt="" />
+            <div class="overlay">
+              <h3>Áo thun</h3>
+              <a href="./category/t-shirt.html">Xem thêm</a>
+            </div>
+          </div>
+          <div class="card-wrapper-3">
+            <img src="./asset/image/model-9.jpg" alt="" />
+            <div class="overlay">
+              <h3>Thắt lưng</h3>
+              <a href="./category/belt.html">Xem thêm</a>
+            </div>
+          </div>
+        </section>
+        <section class="celebrity">
+          <h2 class="title-heading">NGƯỜI NỔI TIẾNG</h2>
+          <div class="celebrity-list">
+            <a href="" >
+              <div class="celebrity-item search-content">
+                <img src="./asset/image/celep-1.jpg" alt="" />
+                <h3>Ca sĩ Tùng Thanh</h3>
+              </div>
+            </a>
+            <a href=""
+              ><div class="celebrity-item search-content">
+                <img src="./asset/image/celep-5.jpg" alt="" />
+                <h3>Nhà thiết kế thời trang Đăng Nam</h3>
+              </div></a
+            >
+            <a href=""
+              ><div class="celebrity-item search-content">
+                <img src="./asset/image/celep-3.jpg" alt="" />
+                <h3>Nhà thiết kế Văn Dũng</h3>
+              </div></a
+            >
+            <a href=""
+              ><div class="celebrity-item search-content">
+                <img src="./asset/image/celep-7.jpg" alt="" />
+                <h3>Diễn viên hài Hoàng Vũ</h3>
+              </div></a
+            >
+          </div>
+        </section>
+        <section class="collection">
+          <h2 class="title-heading">BỘ SƯU TẬP MỚI</h2>
+          <div class="list-collection">
+            <a href="./detail/detail-product.html?id=j-4">
+              <div class="item-collection">
+                <img src="./asset/image/j-4.webp" alt="this is collection" />
+                <p>NEW</p>
+              </div>
+            </a>
+            <a href="./detail/detail-product.html?id=j-5">
+              <div class="item-collection">
+                <img src="./asset/image/j-5.webp" alt="this is collection" />
+                <p>NEW</p>
+              </div>
+            </a>
+            <a href="./detail/detail-product.html?id=j-6">
+              <div class="item-collection">
+                <img src="./asset/image/j-6.webp" alt="this is collection" />
+                <p>NEW</p>
+              </div>
+            </a>
+            <a href="./detail/detail-product.html?id=j-7">
+              <div class="item-collection">
+                <img src="./asset/image/j-7.webp" alt="this is collection" />
+                <p>NEW</p>
+              </div>
+            </a>
+          </div>
+        </section>
+        <section class="news">
+          <h2 class="title-heading">TIN TỨC NỔI BẬT</h2>
+          <div class="list-news">
+            <a href="">
+              <div class="item-news search-content">
+                <img
+                  src="./asset/image/new-1.jpg "
+                  alt="this is picture news 1"
+                />
+                <div class="info-news">
+                  <h3>Hướng dẫn chọn size</h3>
+                  <p>
+                    Tìm hiểu cách chọn size áo cho nam chuẩn nhất năm 2025. Bảng
+                    size áo thun, áo sơ mi, áo jean, theo chiều cao, cân nặng và
+                    số đo trên cơ thể.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="item-news search-content">
+                <img
+                  src="./asset/image/news-2.webp "
+                  alt="this is picture news 1"
+                />
+                <div class="info-news">
+                  <h3>Phong Cách Mới – Năng động</h3>
+                  <p>
+                    Bứt phá khỏi những khuôn mẫu cũ kỹ, bộ sưu tập mới mang đến
+                    hình ảnh người đàn ông hiện đại: tự tin, bản lĩnh và khác
+                    biệt. Từ áo sơ mi tối giản đến blazer cách điệu, mọi chi
+                    tiết đều được thiết kế để tôn vinh dáng vóc và thần thái của
+                    phái mạnh. Đây không chỉ là quần áo – mà là tuyên ngôn về
+                    phong cách sống.
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="item-news search-content">
+                <img
+                  src="./asset/image/news-3.jpg "
+                  alt="this is picture news 1"
+                />
+                <div class="info-news">
+                  <h3>Chất Lượng Định Hình Đẳng Cấp</h3>
+                  <p>
+                    Sự tinh tế không đến từ màu sắc nổi bật mà nằm ở từng đường
+                    kim, mũi chỉ. Với chất liệu cao cấp, độ hoàn thiện vượt trội
+                    và phom dáng chuẩn xác, mỗi thiết kế là sự kết hợp hoàn hảo
+                    giữa thủ công và hiện đại. Không cần phô trương – bạn vẫn
+                    nổi bật bằng chính sự chỉn chu đầy khí chấ
+                  </p>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="item-news search-content">
+                <img
+                  src="./asset/image/news-4.png "
+                  alt="this is picture news 1"
+                />
+                <div class="info-news">
+                  <h3>Sắc Màu Trẻ – Mạnh mẽ</h3>
+                  <p>
+                    Mạnh mẽ không có nghĩa là khô cứng. Những gam màu tươi mới
+                    như xanh olive, be hiện đại hay đỏ rượu vang được xử lý tinh
+                    tế, tạo nên phong cách vừa trẻ trung vừa lịch lãm. Bộ sưu
+                    tập dành cho người đàn ông không ngại thể hiện cá tính – qua
+                    màu sắc, qua phong cách, và qua từng bước đi
+                  </p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </section>
+      </div>
+      <section class="banner-second">
+        <img src="./asset/banner/banner-5.png" alt="this banner second" />
+        <div class="info-banner">
+          <h3>KINSMAN STORE - THƯƠNG HIỆU TRẺ TRUNG NĂNG ĐỘNG</h3>
+        </div>
+      </section>
+      <div class="search-results"></div>
+    </main>
+
+    <footer class="footer">
+      <div class="content-footer">
+        <ul class="info-footer">
+          <li class="contact-footer">
+            <i class="fa-solid fa-phone icon-footer"></i>
+            <p>: 0968 026 400</p>
+          </li>
+          <li class="contact-footer">
+            <i class="fa-solid fa-envelope icon-footer"></i>
+            <p>: hvu6097@gmail.com</p>
+          </li>
+        </ul>
+        <ul class="info-footer">
+          <li class="title-footer">GIỚI THIỆU</li>
+          <li>
+            <a href=""> Hệ thống cửa hàng </a>
+          </li>
+          <li>
+            <a href=""> Sản phẩm </a>
+          </li>
+        </ul>
+        <ul class="info-footer">
+          <li class="title-footer">CHƯƠNG TRÌNH & CHÍNH SÁCH</li>
+          <li>
+            <a href="">Chương trình ưu đãi</a>
+          </li>
+          <li>
+            <a href="">Chính sách bảo hành</a>
+          </li>
+          <li>
+            <a href="">Chính sách đổi hàng</a>
+          </li>
+          <li>
+            <a href="">Chính sách bảo mật</a>
+          </li>
+          <li>
+            <a href="">Quy định thanh toán</a>
+          </li>
+        </ul>
+        <ul class="info-footer">
+          <li class="title-footer">TIN TỨC</li>
+          <li>
+            <a href="">Tin nổi bật</a>
+          </li>
+          <li>
+            <a href="">Sao Việt và Khách hàng</a>
+          </li>
+        </ul>
+        <ul class="footer-social">
+          <li class="title-footer">Theo dõi KinsMan trên mạng xã hội</li>
+          <li class="links-social">
+            <i class="fa-brands fa-square-facebook icon-social"></i>
+            <i class="fa-brands fa-square-instagram icon-social"></i>
+            <img
+              src="./asset/icon/icon-zalo2.png"
+              class="img-zalo"
+              alt="ZALO"
+            />
+            <i class="fa-brands fa-square-x-twitter icon-social"></i>
+          </li>
+        </ul>
+      </div>
+      <div class="copy_right">
+        <h3>Copyrights © 2025 by hoangVu.</h3>
+      </div>
+    </footer>
+
+    <div class="up-page">
+      <a href="#"><i class="fa-solid fa-angle-up icon-up"></i></a>
+    </div>
+    <div class="search-popup">
+      <div class="content-popup">
+        <h3 class="heading-popup">
+          Không tìm thấy kết quả nào!
+        </h3>
+      </div>
+    </div>
+
+    <script src="./js/main.js
+    "></script>
+  </body>
+</html>
