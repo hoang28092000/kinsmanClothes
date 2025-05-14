@@ -307,7 +307,7 @@ header .logo img {
   gap: 20px;
 }
 .item-news {
-  width: 280px;
+  width: 280%;
   height: 310px;
 }
 .item-news img {
